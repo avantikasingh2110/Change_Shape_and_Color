@@ -29,6 +29,8 @@ body {
             width: 40%;
             height: 20vh;
             border: 1px solid black;
+            box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.5);
+            background-color: rgb(11, 162, 142);
             display: flex;
             justify-content: center;
             align-items: center;

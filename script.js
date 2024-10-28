@@ -1,9 +1,9 @@
 let color_div = document.getElementById("color_div");
-let shape_div = document.getElementById("shape_div");
+let shape_div = document.getElementById("circle");
 let color_change_btn = document.getElementById("color_change");
 let shape_change_btn = document.getElementById("shape_change");
 
-let arr = ["heart", "square", "rectangle", "circle", "oval", "triangle-up", "triangle-down", "triangle-left", "triangle-right", "triangle-topleft", "triangle-topright", "triangle-bottomleft", "triangle-bottomright", "trapezoid", "parallelogram", "star-six", "star-five", "pentagon", "hexagon", "octagon", "diamond-shield", "cross"];
+let arr = ["circle", "moon", "square", "rectangle", "triangle-up", "triangle-down", "triangle-left", "triangle-right", "hexagon", "heart", "diamond-shield", "cross", "diamond", "trapezoid"];
 
 color_change_btn.addEventListener("click", function(){
     color_div.style.backgroundColor = randomColor();
